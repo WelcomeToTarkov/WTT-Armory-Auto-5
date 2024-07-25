@@ -1,0 +1,788 @@
+{
+	"669fca7f9ed4916116c76d5e": {
+		"itemTplToClone": "56dee2bdd2720bc8328b4567",
+		"parentId": "5447b6094bdc2dc3278b4567",
+		"handbookParentId": "5b5f794b86f77409407a7f92",
+		"overrideProperties": {
+			"Weight": 1.57,
+			"Width": 2,
+			"Height": 1,
+			"SingleFireRate": 400,
+			"Ergonomics": 46,
+			"RecoilForceBack": 420,
+			"RecoilForceUp": 305,
+			"IronSightRange": 30,
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5.bundle",
+				"rcid": ""
+			},
+			"weapFireType": [
+				"semiauto"
+			],
+			"defAmmo": "560d5e524bdc2d25448b4571",
+			"defMagType": "669fcb6ed34f850baaa66446",
+			"Slots": [
+				{
+					"_id": "669fca93439c8592afb55f43",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_barrel",
+					"_parent": "669fca7f9ed4916116c76d5e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"669fcadce0f0111308174c93",
+									"669fcc072ce7ed70082a6272",
+									"669fcbd899f4dc2f8ed7d113"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "669fca98c1af2f6bbd73beef",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_handguard",
+					"_parent": "669fca7f9ed4916116c76d5e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"669fcb584355abc9d89baaf1"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "669fca9c2ac78dd46efd7ce6",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_magazine",
+					"_parent": "669fca7f9ed4916116c76d5e",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": 0,
+								"Filter": [
+									"669fcb6ed34f850baaa66446",
+									"669fcf5d38f1b8ba9bd0ff6c"
+								]
+							}
+						]
+					},
+					"_proto": "55d30c394bdc2dae468b4577",
+					"_required": true
+				},
+				{
+					"_id": "669fcaa06cdade2c66dfcb79",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_stock",
+					"_parent": "669fca7f9ed4916116c76d5e",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"669fcbc7d1b799623b40679a",
+									"669fcbe98880c4b9c174db01"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 12Ga Shotgun",
+				"shortName": "Auto-5",
+				"description": "The Browning Auto-5 was the first mass-produced semi-automatic shotgun. Designed by John Browning in 1898 and patented in 1900, it was produced continually for almost 100 years by several makers with production ending in 1998."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"55d729c64bdc2d89028b4570",
+			"55d729d14bdc2d86028b456e"
+		],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 32770,
+		"handbookPriceRoubles": 15531,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Level2": 1500,
+        		"Level3": 2200,
+				"Name": "Browning Auto-5",
+				"Templates": [
+					"669fca7f9ed4916116c76d5e"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+				"_encyclopedia": "669fca7f9ed4916116c76d5e",
+				"_id": "669fcaa337eb413b3c518f3c",
+				"_items": [
+					{
+						"_id": "07ffcf88f4b300f9fb41bec2",
+						"_tpl": "669fca7f9ed4916116c76d5e",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "semiauto"
+							}
+						}
+					},
+					{
+						"_id": "2b6969c4e27c781d25239a6c",
+						"_tpl": "669fcadce0f0111308174c93",
+						"parentId": "07ffcf88f4b300f9fb41bec2",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "15e13fa41a560008f04eac92",
+						"_tpl": "669fcb584355abc9d89baaf1",
+						"parentId": "07ffcf88f4b300f9fb41bec2",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "1954c602579469c8c379cd02",
+						"_tpl": "669fcb6ed34f850baaa66446",
+						"parentId": "07ffcf88f4b300f9fb41bec2",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "41f668e2a43cc137aa0eb1d1",
+						"_tpl": "669fcbc7d1b799623b40679a",
+						"parentId": "07ffcf88f4b300f9fb41bec2",
+						"slotId": "mod_stock"
+					}
+				],
+				"_name": "BrowningA5",
+				"_parent": "07ffcf88f4b300f9fb41bec2",
+				"_type": "Preset"
+			}
+		]
+	},
+	"669fcbc7d1b799623b40679a": {
+		"itemTplToClone": "56083cba4bdc2de22e8b456f",
+		"parentId": "55818a594bdc2db9688b456a",
+		"handbookParentId": "5b5f757486f774093e6cb507",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5stock.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.64,
+			"Width": 2,
+			"Height": 1,
+			"ExtraSizeRight": 1,
+			"Ergonomics": 7,
+			"Recoil": -25
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 Wooden Shotgun Stock",
+				"shortName": "Auto-5",
+				"description": "Standard wooden stock for the Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 4625,
+		"handbookPriceRoubles": 2000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcbe98880c4b9c174db01": {
+		"itemTplToClone": "56083cba4bdc2de22e8b456f",
+		"parentId": "55818a594bdc2db9688b456a",
+		"handbookParentId": "5b5f757486f774093e6cb507",
+		"overrideProperties": {
+			"Weight": 0.12,
+			"Width": 1,
+			"Height": 1,
+			"Ergonomics": 11,
+			"Recoil": -6,
+			"ExtraSizeRight": 0,
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5pistolgrip.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 Sawn-Off Wooden Shotgun Stock",
+				"shortName": "Auto-5",
+				"description": "A wooden stock for the Auto-5 12 gauge shotgun that has been sawn down to be more compact."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 4397,
+		"handbookPriceRoubles": 4000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcb584355abc9d89baaf1": {
+		"itemTplToClone": "56deed6ed2720b4c698b4583",
+		"parentId": "55818a104bdc2db9688b4569",
+		"handbookParentId": "5b5f75e486f77447ec5d7712",
+		"overrideProperties": {
+			"Weight": 0.34,
+			"Recoil": -2,
+			"Ergonomics": 6,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5handguard.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "669fcb53e91b5e82ad8e1702",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical_002",
+					"_parent": "669fcb584355abc9d89baaf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"669fcb37000ef6ab0a278da1"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			],
+			"Width": 2,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 Wooden Handguard",
+				"shortName": "Auto-5",
+				"description": "A wooden handguard for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 7895,
+		"handbookPriceRoubles": 3650,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcadce0f0111308174c93": {
+		"itemTplToClone": "588200cf2459774414733d55",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Weight": 1.45,
+			"Recoil": -9,
+			"Ergonomics": -14,
+			"ExtraSizeLeft": 4,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5barrel.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Slots": [
+				{
+					"_id": "669fcb00f4e87f55a731e9c5",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "669fcadce0f0111308174c93",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5c0111ab0db834001966914d",
+									"560838c94bdc2d77798b4569",
+									"5b363dea5acfc4771e1c5e7e"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 710mm 12 Gauge Barrel",
+				"shortName": "Auto-5",
+				"description": "Standard 710mm barrel for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16863,
+		"handbookPriceRoubles": 7300,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcbd899f4dc2f8ed7d113": {
+		"itemTplToClone": "55d449444bdc2d962f8b456d",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Weight": 1.2,
+			"Width": 4,
+			"Height": 1,
+			"Ergonomics": -6,
+			"Recoil": -6.5,
+			"ExtraSizeLeft": 3,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5combatbarrel.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Slots": [
+				{
+					"_id": "669fcb19e9163ce1412068c2",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_tactical_001",
+					"_parent": "669fcbd899f4dc2f8ed7d113",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"609b9e31506cf869cf3eaf41",
+									"5dfe14f30b92095fd441edaf"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				},
+				{
+					"_id": "669fcb1f53b328b6c221057d",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "669fcbd899f4dc2f8ed7d113",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5c0111ab0db834001966914d",
+									"560838c94bdc2d77798b4569",
+									"5b363dea5acfc4771e1c5e7e"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Heritage Ordnance Browning Auto-5 Combat Length Barrel",
+				"shortName": "Auto-5",
+				"description": "A 610mm barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18172,
+		"handbookPriceRoubles": 7500,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcc072ce7ed70082a6272": {
+		"itemTplToClone": "55d4491a4bdc2d882f8b456e",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Weight": 0.12,
+			"Width": 3,
+			"Height": 1,
+			"Ergonomics": -5,
+			"Recoil": -6,
+			"ExtraSizeLeft": 2,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5barrelshortened.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Slots": [
+				{
+					"_id": "669fcb24100457fa919e650b",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "669fcc072ce7ed70082a6272",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5c0111ab0db834001966914d",
+									"560838c94bdc2d77798b4569",
+									"5b363dea5acfc4771e1c5e7e"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 Shortened 12 Gauge Barrel",
+				"shortName": "Auto-5",
+				"description": "A custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14375,
+		"handbookPriceRoubles": 6750,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcb6ed34f850baaa66446": {
+		"itemTplToClone": "56deee15d2720bee328b4567",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5magazine.bundle",
+				"rcid": ""
+			},
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.08,
+			"Ergonomics": -1
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 12ga 4-Shell Tube",
+				"shortName": "Auto-5",
+				"description": "Standard 4-round tube for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 1155,
+		"handbookPriceRoubles": 500,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcf5d38f1b8ba9bd0ff6c": {
+		"itemTplToClone": "5882163824597757561aa922",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponAuto5/auto5magazineextended.bundle",
+				"rcid": ""
+			},
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.08,
+			"Ergonomics": -1
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 12ga Extended 6-Shell Tube",
+				"shortName": "Auto-5",
+				"description": "An extended 6-round tube for the Browning Auto-5 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3689,
+		"handbookPriceRoubles": 1375,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"669fcb37000ef6ab0a278da1": {
+		"itemTplToClone": "5c87ca002e221600114cb150",
+		"parentId": "55818af64bdc2d5b648b4570",
+		"handbookParentId": "5b5f71de86f774093f2ecf13",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponAuto5/auto5foregrip.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": 10,
+			"Recoil": -4,
+			"Weight": 0.542,
+			"Width": 2,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Browning Auto-5 Makeshift Foregrip System",
+				"shortName": "Auto-5",
+				"description": "A makeshift foregrip system for the Browning Auto-5 12 gauge shotgun that attaches to the existing wooden handguard and magazine tube."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_foregrip"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 35640,
+		"handbookPriceRoubles": 8500,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}
